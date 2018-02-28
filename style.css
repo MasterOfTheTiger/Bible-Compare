@@ -1,0 +1,83 @@
+.box {
+    border: 2px solid gray;
+    width: 46%;
+    display: block;
+    float: left;
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    overflow: auto;
+}
+button {
+    display: block;
+}
+#result1, #result2 {
+  border-style: solid;
+  border-color: orange;
+  border-width: thin;
+  margin-top: 10px;
+  padding: 10px;
+  width: 92%;
+}
+#script1, #script2 {
+  padding: 0;
+  margin: 0;
+}
+#error1, #error2 {
+  display: none;
+  color: white;
+  background-color: red;
+  padding: 5px;
+}
+#ref1, #ref2 {
+  font-size: 110%;
+}
+#translation1, #translation2 {
+  width: 96%;
+  border-color: #d8d8d8;
+  background-color: #efefef;
+  border-style: solid;
+  border-width: thin;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+button {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  padding: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #efefef;
+  font-size: 13px;
+  font-family: arial;
+  border-width: thin;
+}
+button:hover {
+  background-color: #d8d8d8;
+  cursor: default;
+}
+button:active {
+  background-color: orange;
+  border-color: orange;
+}
+#search1, #search2 {
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #d8d8d8;
+  padding: 7px;
+  padding-right: 2px;
+  padding-left: 4px;
+  font-size: 13px;
+  font-family: arial;
+  border-width: thin;
+  font-size: 12px;
+  width: 94%;
+  margin-top: 5px;
+}
+#search1:focus, #search2:focus {
+  border-color: orange;
+}
+#stats1, #stats2 {
+  display: none;
+}

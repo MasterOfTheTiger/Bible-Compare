@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bible Compare</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <noscript>You need JavaScript enabled for this to work</noscript>
+    <h1>Compare Bible Passages</h1>
+    <button id="button1">Compare</button>
+    <div class="box">
+        <select id="translation1">
+            <option value="asv">American Standard Version</option>
+            <option value="emphbbl">The Emphasized Bible</option>
+            <option value="kjv">King James Version</option>
+            <option value="leb">The Lexham English Bible</option>
+            <option value="ylt">Young's Literal Translation</option>
+            <option value="darby">Darby Bible</option>
+        </select>
+        <input id="search1" type="text" placeholder="Search Bible Verses..." />
+        <p id="error1">There was an error</p>
+        <div id="result1">
+            <span id="ref1"></span>
+            <p id="script1">Verse will be here...</p>
+        </div>
+        <div id="stats1">
+            <p><span id="words1"></span> words.</p>
+            <p><span id="chars1"></span> characters.</p>
+        </div>
+    </div>
+    <div class="box">
+        <select id="translation2">
+            <option value="asv">American Standard Version</option>
+            <option value="emphbbl">The Emphasized Bible</option>
+            <option value="kjv">King James Version</option>
+            <option value="leb">The Lexham English Bible</option>
+            <option value="ylt">Young's Literal Translation</option>
+            <option value="darby">Darby Bible</option>
+        </select>
+        <input id="search2" type="text" placeholder="Search Bible Verses..." />
+        <p id="error2">There was an error</p>
+        <div id="result2">
+            <span id="ref2"></span>
+            <p id="script2">Verse will be here...</p>
+        </div>
+        <div id="stats2">
+            <p><span id="words2"></span> words.</p>
+            <p><span id="chars2"></span> characters.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
