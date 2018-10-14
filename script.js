@@ -1,6 +1,6 @@
 function getVerses(reference, version, place) {
     document.getElementById('result' + place).display = 'none';
-    url = 'http://api.biblia.com/v1/bible/content/' + version + '.txt?passage=' + reference + '&callback=myCallbackFunction&key=626c526fb489a7fbe1ad4a757e8f8f73';
+    url = 'https://api.biblia.com/v1/bible/content/' + version + '.txt?passage=' + reference + '&callback=myCallbackFunction&key=626c526fb489a7fbe1ad4a757e8f8f73';
     console.log(url);
     fetch(url)
         .then(response => response.text())
